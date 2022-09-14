@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(216, 208, 208);
+}
+#profile-picture{
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+}
+#linkedin {
+    width: 35px;
+    height: 35px;
+}
+#github {
+    width: 35px;
+    height: 35px;
+}
+/* #profile */

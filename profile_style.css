@@ -2,16 +2,30 @@ body {
     background-color: rgb(216, 208, 208);
 }
 #profile-picture{
-    width: 200px;
-    height: 250px;
+    width: 235px;
+    height: 300px;
     border-radius: 25px;
 }
 #linkedin {
+    position:relative;
+    top:80px;
+    right:330px;
     width: 35px;
     height: 35px;
 }
 #github {
+    position:relative;
+    top:80px;
+    right:323px;
     width: 35px;
     height: 35px;
 }
-/* #profile */
+#email {
+    position:relative;
+    top:30px;
+    right:200px;
+}
+#profile {
+    position:relative;
+    left: 750px;
+}

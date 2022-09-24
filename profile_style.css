@@ -7,16 +7,16 @@ body {
     border-radius: 25px;
 }
 #linkedin {
-    position:relative;
-    top:80px;
-    right:330px;
+    position:absolute;
+    top:350px;
+    right:1790px;
     width: 35px;
     height: 35px;
 }
 #github {
-    position:relative;
-    top:80px;
-    right:323px;
+    position:absolute;
+    top:350px;
+    right:1745px;
     width: 35px;
     height: 35px;
 }
@@ -28,4 +28,10 @@ body {
 #profile {
     position:relative;
     left: 750px;
+}
+
+#page_views {
+    position:relative;
+    top:575px;
+    left:800px;
 }

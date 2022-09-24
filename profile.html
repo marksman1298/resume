@@ -3,8 +3,9 @@
   <head>
     <title>Mark Said - Profile</title>
     <link rel="stylesheet" href="profile_style.css">
+    <script src="page_count.js"></script>
   </head>
-  <body>
+  <body onload="getCount();">
     <a href="work_experience.html">Work Experience</a>
     <div id="profile">
         <img id="profile-picture" src="profile_picture.jpg" alt="My graduation picture">
@@ -15,6 +16,9 @@
         <a href="https://github.com/marksman1298" target="_blank"> 
             <img id="github" src="github_logo.png" alt="Github Profile">
         </a>
+    </div>
+    <div id="page_views">
+        <p>Page Views  : <a id="views" ></a></p>
     </div>
   </body>
 </html>

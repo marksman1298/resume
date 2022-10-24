@@ -7,7 +7,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 .sidenav{
     height: 100%;
     width: 300px;
@@ -15,9 +15,9 @@
     z-index:1;
     top:0;
     left:0;
-    background-color: #849e85;
+    background-color:#849e85; /* #849e85 */
     overflow-x: hidden;
-    padding-top:20px;
+    padding-top:0%;
 }
 
 .sidenav a{
@@ -35,7 +35,7 @@
 
 .sidenav a:hover {
     color: #f1f1f1;
-  }
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -48,34 +48,38 @@ body {
     /* overflow-x: hidden */
 
 }
-
+#profile h2 {
+    position:relative;
+    top:-50px;
+    left: 5px;
+}
 #profile-picture{
     position:relative;
     width: 235px;
-    top: -30px;
+    top: -35px;
     left: 20px;
     height: 300px;
     border-radius: 25px;
 }
 #linkedin {
-    position:absolute;
-    top:350px;
-    left:8.5%;
+    position:relative;
+    top:100px;
+    left:32%;
     width: 35px;
     height: 35px;
 }
 #github {
-    position:absolute;
-    top:350px;
-    left:13%;
+    position:relative;
+    top:45px;
+    left:50%;
     width: 35px;
     height: 35px;
     
 }
 #email {
     position:relative;
-    top:30px;
-    right:200px;
+    top:100px;
+    right:0px;
 }
 #profile {
     position:relative;
@@ -85,32 +89,40 @@ body {
 
 #work-experience {
     position:relative;
-    left: 750px;
+    left: 550px;
+    /* width: 200px;
+    height: auto;
+    background: rgb(101, 187, 72);
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease; */
+}
+#project {
+    position:relative;
+    left:70px;
+    top:680px;
 }
 
-#page_views {
+#education {
     position:relative;
-    top:575px;
+    left:-120px;
+    top:800px;
+}
+
+#award {
+    position:relative;
+    left:-460px;
+    top: 900px;
+}
+#page_views {
+    position:absolute;
+    top:1200px;
     left:800px;
 }
 
-/* #work{
-    position:relative;
-    left: 10px;
-    top: 520px;
+
+
+#shapeshift3d{
+    border:1px solid black;
 }
-#project {
-    position: relative;
-    left:-80px;
-    top: 550px;
-} 
-#education {
-    position:relative;
-    left: -120px;
-    top: 580px;
-}
-#award {
-    position: relative;
-    left: -160px;
-    top: 610px;
-} */

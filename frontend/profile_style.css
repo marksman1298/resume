@@ -144,8 +144,9 @@ body {
 }
 #page_views {
     position:relative;
-    top:1200px;
-    left:-500px;
+    top:1400px;
+    right:1230px;
+    width:100px;
 }
 
 

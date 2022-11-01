@@ -25,14 +25,14 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #646363;
     display: block;
 }
 
 .main {
     margin-left: 160px; 
     padding: 0px 10px;
-  }
+}
 
 .sidenav a:hover {
     color: #f1f1f1;
@@ -46,8 +46,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(243, 252, 245);
     /* width:50%; */
-    display:flex;
-    /* overflow-x: hidden */
+    /* display:flex; */
+    /* flex: 0 0 auto; */
+    /* overflow-y: hidden */
 
 }
 #profile h2 {
@@ -68,6 +69,7 @@ body {
     height: 300px;
     border-radius: 25px;
 }
+
 #linkedin {
     position:relative;
     top:100px;
@@ -103,54 +105,49 @@ body {
     top: 100px;
 }
 
-/* #content {
-    position:relative;
-    left: 550px;
-    width: 200px;
-    height: auto;
-    background: rgb(101, 187, 72);
-    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-    color: white;
-    box-shadow: 20px 20px rgba(0,0,0,.15);
-    transition: all .4s ease;
-} */
+
+.content{
+    width:750px;
+    margin: 100px 0px 0px 0px;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 6px 20px rgb(19, 18, 18);
+}
 
 #work-experience {
     position:relative;
     left: 550px;
-    width: 800px;
     height: auto;
-    border: 2px solid rgb(247, 247, 247);
-    border-radius: 8px;
-    padding: 5px;
-    box-shadow: 0px 6px 20px rgb(19, 18, 18);
+    
 }
+
 #project {
     position:relative;
-    right:190px;
-    top:680px;
+    left:550px;
+    top:-50px;
+    height: auto;
 }
 
 #education {
     position:relative;
-    right:395px;
-    top:800px;
+    left:550px;
+    top:-100px;
+    height: auto;
+
+    
 }
 
 #award {
     position:relative;
-    right:740px;
-    top: 920px;
+    left:550px;
+    top: -150px;
+    height: auto;
 }
+  
 #page_views {
     position:relative;
-    top:1400px;
-    right:1230px;
-    width:100px;
-}
-
-
-
-#shapeshift3d{
-    border:1px solid black;
+    top:0px;
+    left:550px;
+    width:300px;
 }

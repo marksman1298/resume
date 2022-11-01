@@ -5,18 +5,18 @@
     <link rel="stylesheet" href="profile_style.css">
     <script src="page_count.js"></script>
   </head>
-  <body onload="getCount();">
-  <!-- <body> -->
+  <!-- <body onload="getCount();"> -->
+  <body>
     <div class="sidenav">
       <div id="profile">
-          <h2>&nbsp&nbsp Mark Said</h2>
+          <h2>&nbsp;&nbsp; Mark Said</h2>
           <img id="profile-picture" src="images/profile_picture.jpg" alt="My graduation picture">
           
           <a id=work class="button" href="#work-experience">Work Experience</a>
           <a id="project_link" class="button" href="#project">Projects</a>
           <a id="education_link" class="button" href="#education">Education</a>
           <a id="award_link" class="button" href="#award">Awards</a>
-          <h3 id="contact">&nbsp Contact Information:</h3>
+          <h3 id="contact">&nbsp; Contact Information:</h3>
           <a id="email" href="mailto:marksaid206@gmail.com">marksaid206@gmail.com</a>
           <a id="linkedin" href="https://www.linkedin.com/in/marksaid1997/" target="_blank"> 
               <img id="linkedin2" src="images/linkedin_logo.png" alt="LinkedIn Profile">
@@ -30,9 +30,9 @@
       
     </div>
     <!-- <div id="content"> -->
-    <div id="work-experience">
+    <div class="content" id="work-experience">
       <h2>Work Experience</h2>
-      <div id="shapeshift3d">
+
           <h3>Software Developer Intern at Shapeshift3D</h3>
           <h5>&nbsp;&nbsp;&nbsp;&nbsp;September 2019 - December 2019</h5>
           <ul>
@@ -41,8 +41,8 @@
               <li>Tested scans to ensure functionality </li>
               <li>Worked on documentation of existing features</li>
           </ul>
-      </div>
-      <div id="matrox">
+       
+    
           <h3>Applications Engineer Intern at Matrox</h3>
           <h5>&nbsp;&nbsp;&nbsp;&nbsp;May 2020 - August 2020</h5>
           <ul>
@@ -51,8 +51,8 @@
               <li>Set up systems to reproduce and assess customer bugs</li>
               <li>Created reports summarizing the findings the results of the experiment</li>
           </ul>
-      </div>
-      <div id="desjardins">
+
+      
           <h3>QA Intern at Desjardins Technologies</h3>
           <h5>&nbsp;&nbsp;&nbsp;&nbsp;May 2021 - August 2021</h5>
           <ul>
@@ -61,22 +61,39 @@
               <li>Authored the tests in XRAY for later executions</li>
               <li>Executed the tests to ensure all functionalities worked as expected</li>
           </ul>
+     
     </div>
-    
-    </div>
-  <div id="project">
+  <div class="content" id="project">
     <h3>Projects</h3>
+    <h4>Cloud Resume Challenge</h4>
     <ul>
-      <li>Cloud Resume Challenge</li>
+      <li>Created static website hosted on AWS S3 bucket</li>
+      <li>Utilize github for version control</li>
+      <li>Enabled HTTPS using Cloudfront</li>
+      <li>AWS SAM to create DynamoDB that stores values for visitor counter</li>
+      <li>AWS SAM to author lambda functions and AWS API Gateway</li>
+      <li>Github Actions to automate testing</li>
     </ul>
   </div>
-  <div id="education">
+  <div class="content" id="education">
     <h3>Education</h3>
-    <ul>
-      <li>Bachelor's of Engineering, Software Engineering</li>
-    </ul>
+    
+      <h4>Bachelor's of Engineering, Software Engineering</h4>
+      <i>Concordia University, Montreal, Quebec</i>
+      <ul>
+        <li>Member of the institute Co-operative Education</li>
+        <li>GPA: 3.40</li>
+        <li>Courses Taken: <ul>
+          <li>Data Communications and Computer Networks</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Databases</li>
+          <li>Operating Systems</li>
+        </ul>
+        </li>
+      </ul>
+      
   </div>
-  <div id="award">
+  <div class="content" id="award">
     <h3>Awards</h3>
     <ul>
       <li>Dean's List 2020-2021 Academic year</li>
@@ -85,7 +102,6 @@
   </div>
   <div id="page_views">
     <p>Page Views  : <a id="views" ></a></p>
-  </div>
-  <!-- </div> -->
+  </div> 
   </body>
 </html>

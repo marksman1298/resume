@@ -3,41 +3,45 @@
   <head>
     <title>Mark Said - Profile</title>
     <link rel="stylesheet" href="profile_style.css">
-    <script src="page_count.js"></script>
+    <script type="text/javascript" src="page_count.js"></script>
   </head>
-  <!-- <body onload="getCount();"> -->
-  <body>
+  <body onload="getCount();">
+
     <div class="sidenav">
       <div id="profile">
-          <h2>&nbsp;&nbsp; Mark Said</h2>
+          <h2> Mark Said</h2>
           <img id="profile-picture" src="images/profile_picture.jpg" alt="My graduation picture">
           
           <a id=work class="button" href="#work-experience">Work Experience</a>
           <a id="project_link" class="button" href="#project">Projects</a>
           <a id="education_link" class="button" href="#education">Education</a>
           <a id="award_link" class="button" href="#award">Awards</a>
-          <h3 id="contact">&nbsp; Contact Information:</h3>
-          <a id="email" href="mailto:marksaid206@gmail.com">marksaid206@gmail.com</a>
+      </div>
+    </div>
+    <div class="content" id="contact">
+      <h2> Contact Information</h2>
+          <a id="email" href="mailto:marksaid206@gmail.com">
+            <img id="email2" src="images/email_logo.png" alt="marksaid206@gmail.com">
+          </a>
           <a id="linkedin" href="https://www.linkedin.com/in/marksaid1997/" target="_blank"> 
               <img id="linkedin2" src="images/linkedin_logo.png" alt="LinkedIn Profile">
           </a>  
           <a id="github" href="https://github.com/marksman1298" target="_blank"> 
               <img id="github2" src="images/github_logo.png" alt="Github Profile">
           </a>
+          <div id="page_views">
+            <p>Page Views  : <a id="views" ></a></p>
+          </div>
           
-      </div>
-      
-      
     </div>
-    <!-- <div id="content"> -->
     <div class="content" id="work-experience">
       <h2>Work Experience</h2>
-
           <h3>Software Developer Intern at Shapeshift3D</h3>
           <h5>&nbsp;&nbsp;&nbsp;&nbsp;September 2019 - December 2019</h5>
           <ul>
-              <li>Developed filters for CAD software</li>
-              <li>Debugged and increased success rate of state file from 60% to 100% </li>
+              <li>Developed a boolean filter that computed the difference, union and intersection between two 3D shapes</li>
+              <li>Debugged and increased reliability of a state file from 60% to 100% </li>
+              <li>Authored python scripts to automate execution of state files</li>
               <li>Tested scans to ensure functionality </li>
               <li>Worked on documentation of existing features</li>
           </ul>
@@ -46,10 +50,10 @@
           <h3>Applications Engineer Intern at Matrox</h3>
           <h5>&nbsp;&nbsp;&nbsp;&nbsp;May 2020 - August 2020</h5>
           <ul>
-              <li>Reproduced and fixed bugs in applications</li>
-              <li>Ensured functionalities of new patch before it was delivered to customers</li>
-              <li>Set up systems to reproduce and assess customer bugs</li>
-              <li>Created reports summarizing the findings the results of the experiment</li>
+              <li>Reproduced and fixed bugs in application written in C#</li>
+              <li>Contributed fixes and ensured functionalities of new patch before it was deployed</li>
+              <li>Set up systems to reproduce and assess reported issues</li>
+              <li>Formulated reports summarizing the findings of the experiment as well as possible fixes</li>
           </ul>
 
       

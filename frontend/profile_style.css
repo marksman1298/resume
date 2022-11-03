@@ -54,51 +54,21 @@ body {
 #profile h2 {
     position:relative;
     top:-50px;
-    left: 0px;
+    text-align: center;
 }
 
-#contact {
-    position:relative;
-    top:115px;
-}
 #profile-picture{
     position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 235px;
     top: -35px;
-    left: 20px;
     height: 300px;
     border-radius: 25px;
 }
 
-#linkedin {
-    position:relative;
-    top:100px;
-    left:30%;
-    width: 35px;
-    height: 35px;
-}
-#linkedin2 {
-    width: 35px;
-    height: 35px;
-}
-#github {
-    position:relative;
-    top:52px;
-    left:44%;
-    width: 35px;
-    height: 35px;
-    
-}
 
-#github2 {
-    width: 35px;
-    height: 35px;
-}
-#email {
-    position:relative;
-    top:100px;
-    right:0px;
-}
 #profile {
     position:relative;
     left: 0px;
@@ -107,14 +77,62 @@ body {
 
 
 .content{
-    width:750px;
+    width:45%;
     margin: 100px 0px 0px 0px;
     border: 2px solid rgb(247, 247, 247);
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0px 6px 20px rgb(19, 18, 18);
+
 }
 
+
+#contact {
+    position:relative;
+    left:550px;
+    top:57px;
+    height: 150px;
+}
+
+
+#linkedin {
+    position:relative;
+    top:-13px;
+    left:70px;
+    display:inline-block; 
+    width: 35px;
+    height: 35px;
+}
+#linkedin2 {
+    width: 34px;
+    height: 34px;
+}
+#github {
+    position:relative; 
+    top:-13px;
+    left:85px; 
+    display:inline-block; 
+    width: 40px;
+    height: 40px;
+    
+}
+
+#github2 {
+    width: 34px;
+    height: 34px;
+}
+#email {
+    position:relative;
+    top:-10px;
+    left:50px;
+    display:inline-block; 
+    width: 40px;
+    height: 40px;
+}
+#email2 {
+    width: 40px;
+    height: 40px;
+}
 #work-experience {
     position:relative;
     left: 550px;
@@ -147,7 +165,6 @@ body {
   
 #page_views {
     position:relative;
-    top:0px;
-    left:550px;
-    width:300px;
+    left: 6%;
+    
 }

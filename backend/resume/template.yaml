@@ -16,7 +16,7 @@ Resources:
     Properties:
       CodeUri: get_page_count/
       Handler: app.lambda_handler
-      Runtime: python3.7
+      Runtime: python3.9
       Architectures:
         - x86_64
       Events:
@@ -31,7 +31,7 @@ Resources:
     Properties:
       CodeUri: update_page_count/
       Handler: app.lambda_handler
-      Runtime: python3.7
+      Runtime: python3.9
       Architectures:
         - x86_64
       Events:

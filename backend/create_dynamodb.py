@@ -23,15 +23,15 @@ def create_dynamodb(table_name: str):
         )
 
         resume_table.wait_until_exists()
-        resume_table.put_item(
-            Item={
-                "id": "0",
-                "page_views": 0
-            }
-        )
+        # resume_table.put_item(
+        #     Item={
+        #         "id": "0",
+        #         "page_views": 0
+        #     }
+        # )
         return 0
     return "table already exists"
 
 
 
-
+create_dynamodb("urmom")

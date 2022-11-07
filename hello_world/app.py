@@ -1,7 +1,8 @@
 import json
 
 # import requests
-
+import json
+import boto3
 
 def lambda_handler(event, context):
     """Sample pure Lambda function
@@ -33,10 +34,22 @@ def lambda_handler(event, context):
 
     #     raise e
 
+    dynamodb = boto3.resource("dynamodb")
+    
+    table = dynamodb.Table("resume_counter")
+    
+    response = table.get_item(
+        Key={
+            "id":"0"
+        }
+    )
+    
     return {
-        "statusCode": 200,
-        "body": json.dumps({
-            "message": "hello world",
-            # "location": ip.text.replace("\n", "")
-        }),
+        'headers' : {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': '*',
+            'Access-Control-Allow-Headers': '*'
+        },
+        'statusCode': 200,
+        'body': response["Item"]["page_views"]
     }

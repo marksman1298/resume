@@ -31,6 +31,6 @@ jobs:
       - run: sam build --use-container
         working-directory: backend/resume
       - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
-        working-directory: backend        
+        working-directory: backend/resume        
 
 
